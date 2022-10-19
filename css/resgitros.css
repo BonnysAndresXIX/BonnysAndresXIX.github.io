@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../media/hexagonal.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.form-box {
+    width: 370px;
+    height: 455px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.button-box {
+    width: 240px;
+    margin: 30px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #1c2331;
+    border-radius: 30px;
+
+}
+
+.toggle-btn {
+    padding: 10px 22px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    position: relative;
+    
+}
+
+#opcion {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(244, 98, 54, 0.7), rgba(0, 0, 0, 0.7));
+    border-radius: 30px;
+    transition: 0.8s;
+
+}
